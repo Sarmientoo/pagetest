@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - AMG Servicios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <img src="LOGOPNG2.png" alt="Coberturas especiales y medios" class="logo">
+            
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="referencias.html">Referencias</a></li>
+            </ul>
+            
+            <a href="contacto.html" class="contact-btn">Contacto</a>
+            
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===== Sección Contacto ===== -->
+   <section class="contacto-section" id="contacto">
+  <h2 class="section-title">Contacto</h2>
+  
+  <div class="contacto-container">
+    <!-- Columna izquierda -->
+    <div class="contacto-info">
+      <h3><b>¡Contactate con nosotros!</h3></b>
+      <p>
+        Desde Buenos Aires coordinamos todos los traslados y la logística de nuestra flota hacia cualquier punto del país.
+   Estamos siempre disponibles a través de nuestros canales de contacto para responder de forma rápida y eficiente a cada necesidad.
+      </p>
+      <img src="contacto1.jpg" alt="Contacto">
+    </div>
+
+    <!-- Columna derecha - Tarjetas -->
+    <div class="contacto-cards">
+      <div class="card">
+        <h4>Correo</h4>
+        <p><a href="mailto:amgserviciosgenerales@gmail.com">amgserviciosgenerales@gmail.com</a></p>
+      </div>
+      
+      <div class="card">
+        <h4>Redes Sociales</h4>
+        <p> 
+          <a href="https://instagram.com/tuempresa" target="_blank">Instagram</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-contact">
+                <p>📧 Email: amgserviciosgenerales@gmail.com</p>
+            </div>
+            
+            <div class="footer-logo">
+                <img src="LOGOPNG2.png" alt="Coberturas especiales y medios" class="logo">
+                <p class="company-subtitle">SERVICIOS GENERALES</p>
+                <p class="company-description">Traslados Empresariales</p>
+            </div>
+            
+            
+        </div>
+        
+        <div class="footer-bottom">
+            <p>AMG Servicios Generales © 2025 || Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.nav-menu');
+            menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+        }
+    </script>
+
+</body>
+</html>
